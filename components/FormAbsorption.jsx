@@ -28,9 +28,7 @@ const CalculatorAbsrorption = () => {
     let num_trays;
 
     if (A === 1) {
-      if (mode === 1) {
-        num_trays = (Y_n_1 - Y_1) / (Y_1 - m * X_o);
-      }
+      num_trays = (Y_n_1 - Y_1) / (Y_1 - m * X_o);
     } else {
       num_trays =
         Math.log(
